@@ -1,0 +1,11 @@
+image_index=0;
+image_speed=0;
+depth=4;
+x=-210;
+y=150;
+beklemesure=180;//240--) 3sn
+ivme1=0; //azalarak
+waiting=120; //120--) 2sn
+ivme2=0; //artarak
+gitgel=0;
+donme=0;
