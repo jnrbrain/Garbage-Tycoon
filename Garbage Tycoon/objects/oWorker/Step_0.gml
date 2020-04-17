@@ -1,20 +1,30 @@
 if timer>0 and timer <30
-timer-=1;
+	timer-=1;
 if timer<=0
 {
 	y=instance_nearest(x,y, oZemin).bbox_top;
 	timer=30;
 }
 if sure>0 and sure<60
+{
 sure-=1;
-if gidis==3 and device_mouse_check_button_pressed(0, mb_left) and point_in_rectangle(device_mouse_x(0), device_mouse_y(0), bbox_left, bbox_top, bbox_right, bbox_bottom) and instance_nearest(x, y, oSepet).kutusayisi>0
+	can-=0.1;
+}
+if can<10
+can+=0.0005;
+if can<10 and device_mouse_check_button_pressed(0, mb_left) and point_in_rectangle(device_mouse_x(0), device_mouse_y(0), bbox_left, bbox_top, bbox_right, bbox_bottom)and score>=55
+{
+	can=100;
+	score-=50;
+}
+if gidis==3 and ((device_mouse_check_button_pressed(0, mb_left) and point_in_rectangle(device_mouse_x(0), device_mouse_y(0), bbox_left, bbox_top, bbox_right, bbox_bottom))or seviye==2) and instance_nearest(x, y, oSepet).kutusayisi>0 and can>=10
 {
 	gidis=0;
 	pressed=true;
 }
 if paraanim>0 and paraanim<60
 paraanim-=1;
-if gidis==0 and pressed==true
+if gidis==0 and (pressed==true or seviye==2)
 {
 	if x>instance_nearest(x,y,oSepet).bbox_right+sprite_width/2
 	{
@@ -26,7 +36,7 @@ if gidis==0 and pressed==true
 		image_speed=1;
 		if seviye==0
 		x-=4;
-		else if seviye==1
+		else if seviye==1 or seviye==2
 		x-=6;
 	}
 	else if x<=instance_nearest(x,y,oSepet).bbox_right
@@ -57,7 +67,7 @@ else if gidis==1
 		sprite_index=worker;
 		if seviye==0
 		x+=4;
-		else if seviye==1
+		else if seviye==1 or seviye==2
 		x+=6;
 	}
 	if x>=instance_nearest(x,y,oElevator).x
@@ -87,7 +97,7 @@ else if gidis==2
 		image_speed=1;
 		if seviye==0
 		x-=4;
-		else if seviye==1
+		else if seviye==1 or seviye==2
 		x-=6;
 	}
 	else if x<=instance_nearest(x,y,oElevator).x-200

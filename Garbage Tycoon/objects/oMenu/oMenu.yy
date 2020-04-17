@@ -1,8 +1,8 @@
 {
-    "id": "d1737103-930e-484d-9009-072609701454",
+    "id": "21ae65f9-1182-4c1f-b8cb-865bd25dd577",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oButon1",
+    "name": "oMenu",
     "eventList": [
         
     ],

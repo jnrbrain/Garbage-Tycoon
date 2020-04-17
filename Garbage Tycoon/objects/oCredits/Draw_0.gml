@@ -1,0 +1,16 @@
+draw_set_font(font2);
+draw_set_color(c_yellow);
+draw_text(room_width/2-string_width("-DEVELOPERS-")/2, y, "-DEVELOPERS-");
+draw_set_color(c_white);
+draw_text(room_width/2-string_width("Said Uludag")/2, y+50, "Said Uludag");
+draw_text(room_width/2-string_width("Alperen Tekten")/2, y+95, "Alperen Tekten");
+draw_set_color(c_yellow);
+draw_text(room_width/2-string_width("-MODELLING-")/2, y+250, "-MODELLING-");
+draw_set_color(c_white);
+draw_text(room_width/2-string_width("Muhammed Ikbal Cosgun")/2, y+300, "Muhammed Ikbal Cosgun");
+draw_text(room_width/2-string_width("Yagmur Erdem")/2, y+345, "Yagmur Erdem");
+draw_text(room_width/2-string_width("Celile Sari")/2, y+390, "Celile Sari");
+draw_text(room_width/2-string_width("Zelal Yilmaz")/2, y+435, "Zelal Yilmaz");
+draw_set_color(c_yellow);
+draw_text(room_width/2-string_width("Version 0.0.1")/2, y+500, "Version 0.0.1");
+draw_sprite(instagram,0,room_width/2, y+560);
