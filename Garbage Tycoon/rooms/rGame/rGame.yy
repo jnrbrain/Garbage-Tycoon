@@ -1,6 +1,6 @@
 
 {
-    "name": "room0",
+    "name": "rGame",
     "id": "00fffe51-62e4-4799-a8d9-bdd1f464168a",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -220,7 +220,7 @@
         "Height": 5040,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
-        "persistent": false,
+        "persistent": true,
         "mvc": "1.0",
         "Width": 1920
     },
