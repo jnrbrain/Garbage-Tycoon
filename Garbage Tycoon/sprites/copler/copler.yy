@@ -2,7 +2,7 @@
     "id": "86244531-a556-4d26-bf59-d12934f9a7b3",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "copkamyonu",
+    "name": "copler",
     "For3D": false,
     "HTile": false,
     "VTile": false,
