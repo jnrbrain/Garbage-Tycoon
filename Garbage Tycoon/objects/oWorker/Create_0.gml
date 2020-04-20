@@ -9,4 +9,4 @@ paragelir=false;
 paraanim=60;
 timer=29;
 seviye=0;
-can=20;
+can=100;

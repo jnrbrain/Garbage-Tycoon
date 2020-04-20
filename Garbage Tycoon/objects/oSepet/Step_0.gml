@@ -7,7 +7,7 @@ if instance_exists(oPackage1)
 		if kutusayisi<5
 		kutusayisi+=1;
 		else if kutusayisi>=5
-		score-=2;
+		score-=5;
 		with(instance_nearest(x, y, oPackage1))
 		{
 			instance_destroy();
