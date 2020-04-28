@@ -64,7 +64,7 @@
     "option_android_support_lib": "28.0.0",
     "option_android_sync_amazon": false,
     "option_android_target_sdk": "28",
-    "option_android_texture_page": "512x512",
+    "option_android_texture_page": "4096x4096",
     "option_android_tools_from_version": false,
     "option_android_tv_banner": "${options_dir}\\android\\banner.png",
     "option_android_tv_isgame": true,
