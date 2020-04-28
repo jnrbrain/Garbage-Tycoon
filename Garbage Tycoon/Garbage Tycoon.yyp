@@ -223,14 +223,6 @@
             }
         },
         {
-            "Key": "47135a18-db43-4306-b79a-85acef695977",
-            "Value": {
-                "id": "a3f39c76-97d7-42b2-a453-22561d55c0d9",
-                "resourcePath": "fonts\\font0\\font0.yy",
-                "resourceType": "GMFont"
-            }
-        },
-        {
             "Key": "475a7ddd-27c3-4321-8d02-06151ad275e5",
             "Value": {
                 "id": "f7f98b38-0eaf-49fb-9c8f-29873a59f3a2",
@@ -332,14 +324,6 @@
                 "id": "b19a7cee-da8d-41e7-808b-d27bcfacecf8",
                 "resourcePath": "objects\\oCredits\\oCredits.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "5d595221-9665-4473-bd6f-506b5ede1eba",
-            "Value": {
-                "id": "7fed97e5-af34-406a-a099-e007939e7066",
-                "resourcePath": "fonts\\font2\\font2.yy",
-                "resourceType": "GMFont"
             }
         },
         {
@@ -623,6 +607,14 @@
             }
         },
         {
+            "Key": "bc8e5686-c764-47bc-94cc-f95368bfa0fb",
+            "Value": {
+                "id": "c0d40217-fce2-4151-9223-1151997e66da",
+                "resourcePath": "fonts\\font0\\font0.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "be43a6af-03b5-4b8a-9788-648c50d41f20",
             "Value": {
                 "id": "1dbbd902-1aa1-4e33-822e-42ea29cd2bf6",
@@ -747,14 +739,6 @@
             "Value": {
                 "id": "0232bee3-4ea9-4709-b9bc-5f49407dc3df",
                 "resourcePath": "objects\\oQuitButton\\oQuitButton.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "e0816840-d5ff-419e-8810-91a3d7bae9c7",
-            "Value": {
-                "id": "e758052b-90a3-4c0d-a8de-bf430d6a8af1",
-                "resourcePath": "objects\\oKutu\\oKutu.yy",
                 "resourceType": "GMObject"
             }
         },
