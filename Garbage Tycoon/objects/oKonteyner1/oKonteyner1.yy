@@ -5,7 +5,17 @@
     "name": "oKonteyner1",
     "eventList": [
         {
-            "id": "48dfd324-5070-4f5d-a34e-5ca625b1a973",
+            "id": "7f41ab8c-7cfc-416f-a9b2-b152f330c44c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 7,
+            "m_owner": "52f2893a-1931-44f5-b90a-f62768bacb83"
+        },
+        {
+            "id": "cd68eff0-f287-46f3-a304-87fe81e1628d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

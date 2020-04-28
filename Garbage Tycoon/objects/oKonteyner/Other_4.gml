@@ -1,5 +1,3 @@
-image_index=0;
-image_speed=0;
 depth=3;
 if instance_exists(oKonteyner1)
 {

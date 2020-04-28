@@ -12,3 +12,5 @@ if point_in_rectangle(device_mouse_x(0), device_mouse_y(0), x-sprite_width/2, y-
 		score-=100;
 	}
 }
+if image_index!=instance_nearest(x-200, y+284, oWorker).seviye
+image_index=instance_nearest(x-200, y+284, oWorker).seviye;

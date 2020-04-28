@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "oBoru2",
     "eventList": [
-        
+        {
+            "id": "41ba5d31-1696-4986-8f36-a9e243e6d796",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 7,
+            "m_owner": "2fef84a2-20f0-4c12-b526-96f317f3a7a4"
+        },
+        {
+            "id": "e3a20742-3053-4eb3-b60a-2017bcc5bae3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "2fef84a2-20f0-4c12-b526-96f317f3a7a4"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

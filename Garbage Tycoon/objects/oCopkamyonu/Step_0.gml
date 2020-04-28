@@ -27,7 +27,7 @@ else if gitgel==2
 	donme-=1;
 	else if donme<0 and waiting<=60
 	donme+=1;
-	if  irandom_range(5,10)==waiting or irandom_range(15,20)==waiting or irandom_range(25,30)==waiting or irandom_range(35,40)==waiting
+	if  irandom_range(5,10)==waiting or irandom_range(10,15)==waiting or irandom_range(15,20)==waiting or irandom_range(25,30)==waiting or irandom_range(35,40)==waiting
 	instance_create_layer(bbox_right+irandom_range(0,20), y+5, "Instances", oCopler);
 	oKapak.image_angle=donme;
 	if waiting>0

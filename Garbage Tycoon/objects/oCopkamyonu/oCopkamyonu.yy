@@ -5,16 +5,6 @@
     "name": "oCopkamyonu",
     "eventList": [
         {
-            "id": "7e6af52e-bd68-48f8-b7b9-7019f15e3f8f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "4225a901-5bcf-4234-83d3-fb5b96d405ba"
-        },
-        {
             "id": "acefba92-ef57-40f5-8f76-4ec4b0ca6cf3",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -32,6 +22,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 4,
             "eventtype": 7,
+            "m_owner": "4225a901-5bcf-4234-83d3-fb5b96d405ba"
+        },
+        {
+            "id": "e041bce5-89f2-4c37-b34f-a676c51a6ee7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "4225a901-5bcf-4234-83d3-fb5b96d405ba"
         }
     ],
@@ -51,7 +51,92 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "1525e6ff-2049-40b6-b843-7704669da2d3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 180,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "180",
+            "varName": "beklemesure",
+            "varType": 0
+        },
+        {
+            "id": "6cb8687e-3be0-4382-8919-0750b30e4b91",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "ivme1",
+            "varType": 0
+        },
+        {
+            "id": "6b80a8cc-60be-4db8-9b1e-fb37fff69583",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "120",
+            "varName": "waiting",
+            "varType": 0
+        },
+        {
+            "id": "cd0f3d6b-20f0-4d12-95a5-edbb57f56a65",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "ivme2",
+            "varType": 0
+        },
+        {
+            "id": "ef5d570e-9bda-4386-b934-a53e8fd4faa3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 3,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "gitgel",
+            "varType": 1
+        },
+        {
+            "id": "e6a50788-9fc3-475a-ab0d-736ec5ffc25f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "donme",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "f5ccd6ec-87a9-4176-8f3b-c532675176a3",
     "visible": true

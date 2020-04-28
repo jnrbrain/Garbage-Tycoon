@@ -41,7 +41,50 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "b16ffd63-f640-46ee-bf31-56007d9d3a38",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "donmeivme",
+            "varType": 0
+        },
+        {
+            "id": "a57f54ea-eb7d-471c-8d54-853c8a0a4a88",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 1,
+            "rangeMin": -1,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "yon",
+            "varType": 0
+        },
+        {
+            "id": "d1a8f848-36d7-4732-adc7-dd802d60d324",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "dusmehizi",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "86244531-a556-4d26-bf59-d12934f9a7b3",
     "visible": true

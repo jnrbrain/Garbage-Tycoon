@@ -1,1 +1,1 @@
-kat=0;
+global.kat=0;
